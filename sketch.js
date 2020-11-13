@@ -45,9 +45,7 @@ function setup() {
 
 	Engine.run(engine);
 
-	box1=new Box(400,670,200,20)
-	box2=new Box(300,620,20,100)
-	box3=new Box(510,620,20,100) 
+	
 }
 
 
@@ -57,9 +55,7 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
-  box1.display();
-  box2.display();
-  box3.display();
+
  
 }
 
